@@ -28,4 +28,3 @@ The way you reflect upon your decisions is important to us, why we ask you to in
 - I am using `TriangleClasses` as an array, which is also exported, so I will not need to make sure I spell equilateral, isosceles and scalene correct throughout my code.
 - I explicitly look for `=== undefined` rather than using `!` in front of a function. I believe it is more readable and type-safe.
 - I chose to run all the test functions (`isEquilateral`, `isIsosceles`, `isScalene`) simultaneously as their work is not too rough on the CPU, I assume.  I could have chosen to do a while and look for the first function that returned true if we needed heavier work.
-- For proper testing I should also export the test functions, so they can be tested individually.

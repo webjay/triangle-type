@@ -36,5 +36,8 @@ function triangleType(a, b, c) {
 
 module.exports = {
   triangleType,
-  TriangleClasses
+  TriangleClasses,
+  isEquilateral,
+  isIsosceles,
+  isScalene
 };
