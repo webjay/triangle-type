@@ -15,11 +15,11 @@ describe('triangleType', function() {
   });
 
   it('is isosceles (5, 5, 1) as it has two sides of equal length.', function() {
-    return assert.strictEqual(triangleType(5, 5, 8), TriangleClasses[1]);
+    return assert.strictEqual(triangleType(5, 5, 1), TriangleClasses[1]);
   });
 
   it('is isosceles (5, 1, 5) as it has two sides of equal length.', function() {
-    return assert.strictEqual(triangleType(5, 5, 8), TriangleClasses[1]);
+    return assert.strictEqual(triangleType(5, 1, 5), TriangleClasses[1]);
   });
 
   it('is scalene (10, 20, 30) as it has three unequal sides.', function() {
