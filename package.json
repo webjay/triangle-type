@@ -1,0 +1,19 @@
+{
+  "name": "triangle-type",
+  "version": "1.0.0",
+  "description": "It takes the lengths of the triangle's three sides as input, and return whether the triangle is equilateral, isosceles or scalene.",
+  "main": "index.js",
+  "author": "Jacob Friis Saxberg",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-recommended": "4.0.0",
+    "mocha": "5.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": "git@github.com:webjay/triangle-type.git"
+}
